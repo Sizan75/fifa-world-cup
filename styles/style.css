@@ -5,9 +5,7 @@ body{
     margin: 0;
 }
 /* header Styles */
-.header-section{
-    margin-bottom: 130px;
-}
+
 .container{
     display: flex;
     margin-left: 10px;
@@ -15,6 +13,7 @@ body{
     width: 1321px;
     height: 646px;
     border-radius: 30px;
+    margin-bottom: 130px;
 }
 /* header Details  */
 .header-details{
