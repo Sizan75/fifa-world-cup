@@ -136,6 +136,15 @@ h1{
     width: 24px;
     height: 24px;
 }
+#view{
+    width:300px;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+    background-color: red;
+    color: white;
+    margin-left: 80px;
+}
 /* Footer Styles */
 .footer{
     position: absolute;
@@ -225,6 +234,9 @@ hr{
         grid-template-columns: repeat(1 , 1fr);
         margin-left: 30px;
     }
+    #view{
+        display: none;
+    }
     .footer{
         height: auto;
     }
@@ -254,5 +266,10 @@ hr{
     .blog-container{
         grid-template-columns: repeat(2 , 1fr);
         margin-left: 30px;
+    }
+}
+@media  only screen and (min-width:993px) and (max-width:1500px) {
+    #view{
+        display: none;
     }
 }
