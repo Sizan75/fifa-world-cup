@@ -272,11 +272,13 @@ hr{
 /* Tab let Devices */
 @media only screen and (min-width:689px) and (max-width:992px) {
     
+    
     .aside-container{
         flex-direction: row;
-        
+       
         background: #FFFFFF;
         position: relative;
+        
         
     }
     .side-button{
@@ -298,6 +300,7 @@ hr{
     .blog-container{
         grid-template-columns: repeat(2 , 1fr);
         margin-left: 30px;
+        
     }
 }
 /* Media query for large screen  */
