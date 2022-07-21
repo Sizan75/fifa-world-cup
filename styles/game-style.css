@@ -68,18 +68,32 @@ h1{
     height: 312px;
     position:absolute;
 } 
+ .side-button{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   
+   }
 .side-button a{
-    display: flex;
-    justify-items:center ;
-    align-items: center;
+    
+    /* display: flex;
+    justify-items:center ; */
     text-decoration: none;
     background: #FFFFFF;
     border-radius: 10px;
     width: 252px;
     height: 64px;
-    margin: 30px 30px 30px 30px;
+    margin: 05px 30px 30px 30px;
+    
 }
 #upcoming-game{
+    background-color: red;
+    color:#ffffff;
+}
+#all-group:hover{
+    background-color: red;
+    color: white;
+}
+#blog-button:hover{
     background-color: red;
     color:#ffffff;
 }
@@ -183,20 +197,29 @@ hr{
         margin-left:10px;
         margin-right: 10px;
         
-    }  .aside-container{
+    } 
+    .aside-container{
         flex-direction: row;
+        
         background: #FFFFFF;
         position: relative;
         
     }
-    .side-button a{
+    .side-button{
         grid-template-columns: repeat(3,1fr);
-        flex-direction: row;
+        
+    }
+    .side-button a{
+        /* flex-direction: row; */
         text-decoration: none;
         background: #FFFFFF;
         border-radius: 10px;
-        width: 252px;
+        border: 0.5px solid black;
+        width: 150px;
         height: 64px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .next-game-container{
         grid-template-columns: repeat(1 , 1fr);
@@ -219,14 +242,21 @@ hr{
         position: relative;
         
     }
-    .side-button a{
+    .side-button{
         grid-template-columns: repeat(3,1fr);
-        flex-direction: row;
+        
+    }
+    .side-button a{
+       
         text-decoration: none;
         background: #FFFFFF;
         border-radius: 10px;
-        width: 252px;
+        border: 0.5px solid black;
+        width: 150px;
         height: 64px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .next-game-container{
         grid-template-columns: repeat(2 , 1fr);
